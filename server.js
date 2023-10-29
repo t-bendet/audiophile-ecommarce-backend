@@ -22,18 +22,26 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("DB connected");
+    console.log(
+      figlet.textSync(`Mongo connected`, {
+        font: "ogre",
+        horizontalLayout: "controlled smushing",
+        verticalLayout: "default",
+        width: 100,
+        whitespaceBreak: true,
+      })
+    );
   });
 // .catch((err) => console.log(`Error : can't connect to DB`));
 
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
   console.log(
-    figlet.textSync(`port  ${port}`, {
-      // font: 'Ghost',
+    figlet.textSync(`Server : port  ${port}`, {
+      font: "Ogre",
       horizontalLayout: "controlled smushing",
       verticalLayout: "default",
-      width: 80,
+      width: 100,
       whitespaceBreak: true,
     })
   );
