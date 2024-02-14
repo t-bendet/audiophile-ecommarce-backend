@@ -12,6 +12,22 @@ if (process.env.NODE_ENV === "development") {
 }
 app.use(express.json());
 
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PUT, DELETE, OPTIONS"
+  );
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "X-Requested-With,content-type"
+  );
+  next();
+});
+console.log(__dirname);
+
+app.use(express.static(`${__dirname}/public`));
+
 app.use("/api/v1/products", productRouter);
 
 app.all("*", (req, res, next) => {
