@@ -1,6 +1,6 @@
 const Product = require("../models/productModel");
 const APIFeatures = require("../utils/apiFeatures");
-const AppError = require("../utils/appError");
+// const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
 
 const testController = catchAsync(async (req, res, next) => {
@@ -11,6 +11,8 @@ const testController = catchAsync(async (req, res, next) => {
     },
   });
 });
+
+// TODO handle lower upper case
 
 const getAllProducts = catchAsync(async (req, res, next) => {
   const features = new APIFeatures(
@@ -48,6 +50,7 @@ const getProductById = catchAsync(async (req, res, next) => {
 
 const getProductByCategory = catchAsync(async (req, res, next) => {
   const { category } = req.params;
+  console.log(category, "cat");
   let products = Product.find({ category });
   // * select only relevant fields for category display
   products = await products.select("name description new slug image");

@@ -1,17 +1,16 @@
 [
   {
-    "slug": "yx1-earphones",
     "name": "YX1 Wireless Earphones",
     "image": {
-      "mobile": "/product-yx1-earphones/mobile/image-product.jpg",
-      "tablet": "/product-yx1-earphones/tablet/image-product.jpg",
-      "desktop": "/product-yx1-earphones/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/yn2Px06/image-product.jpg",
+      "tablet": "https://i.ibb.co/K0DdSQ6/image-product.jpg",
+      "desktop": "https://i.ibb.co/HChWspP/image-product.jpg"
     },
     "category": "earphones",
     "categoryImage": {
-      "mobile": "/product-yx1-earphones/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-yx1-earphones/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/4VgG2yk/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/M1HBvBH/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/Bg50YkS/image-category-page-preview.jpg"
     },
     "new": true,
     "price": 599,
@@ -41,35 +40,52 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-1.jpg",
-        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-1.jpg",
-        "desktop": "./assets/product-yx1-earphones/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/nPVYpHY/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/Ldjy7tp/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/TgQbNW7/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-2.jpg",
-        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-2.jpg",
-        "desktop": "./assets/product-yx1-earphones/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/vDRz9Jt/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/2NJg9DF/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/K9sxvqW/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "./assets/product-yx1-earphones/mobile/image-gallery-3.jpg",
-        "tablet": "./assets/product-yx1-earphones/tablet/image-gallery-3.jpg",
-        "desktop": "./assets/product-yx1-earphones/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/JnmNKnf/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/gmhYVXc/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/khPfFQk/image-gallery-3.jpg"
       }
+    },
+    "others": ["XX99 Mark One", "xx59 headphones", "ZX9 Speaker"],
+    "thumb": "https://i.ibb.co/9Z0BpQC/image-category-thumbnail-earphones.png",
+    "heroImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "spotlightImage": {
+      "mobile": "https://i.ibb.co/P93T22W/spotlight-earphones-yx1.jpg",
+      "tablet": "https://i.ibb.co/CM1jWGx/spotlight-earphones-yx1.jpg",
+      "desktop": "https://i.ibb.co/s9BvSVC/spotlight-earphones-yx1.jpg"
+    },
+    "cartImage": "https://i.ibb.co/sWDYF9b/image-cart-yx1-earphones.jpg",
+    "suggestionImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
     }
   },
   {
-    "slug": "xx59-headphones",
     "name": "XX59 Headphones",
     "image": {
-      "mobile": "/product-xx59-headphones/mobile/image-product.jpg",
-      "tablet": "/product-xx59-headphones/tablet/image-product.jpg",
-      "desktop": "/product-xx59-headphones/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/QcbZCLB/image-product.jpg",
+      "tablet": "https://i.ibb.co/zZ0dWtM/image-product.jpg",
+      "desktop": "https://i.ibb.co/k1NhDKS/image-product.jpg"
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "/product-xx59-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-xx59-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-xx59-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/GW2sLXQ/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/wcdK5gS/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/pbrXfT4/image-category-page-preview.jpg"
     },
     "new": false,
     "price": 899,
@@ -95,35 +111,52 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "./assets/product-xx59-headphones/mobile/image-gallery-1.jpg",
-        "tablet": "./assets/product-xx59-headphones/tablet/image-gallery-1.jpg",
-        "desktop": "./assets/product-xx59-headphones/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/8BHFV2z/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/Swz1vsc/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/StPPyRW/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "./assets/product-xx59-headphones/mobile/image-gallery-2.jpg",
-        "tablet": "./assets/product-xx59-headphones/tablet/image-gallery-2.jpg",
-        "desktop": "./assets/product-xx59-headphones/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/8dNKd3z/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/CPpW92Q/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/Vq3MhXp/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "./assets/product-xx59-headphones/mobile/image-gallery-3.jpg",
-        "tablet": "./assets/product-xx59-headphones/tablet/image-gallery-3.jpg",
-        "desktop": "./assets/product-xx59-headphones/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/VLHfQwP/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/X4RhLBK/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/vh2380K/image-gallery-3.jpg"
       }
+    },
+    "others": ["XX99 Mark Two", "XX99 Mark One", "ZX9 Speaker"],
+    "thumb": null,
+    "heroImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "spotlightImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "cartImage": "https://i.ibb.co/7jQ3fVy/image-cart-xx59-headphones.jpg",
+    "suggestionImage": {
+      "mobile": "https://i.ibb.co/H2gYBGK/suggestion-xx59-headphones.jpg",
+      "tablet": "https://i.ibb.co/R6hb1zP/suggestion-xx59-headphones.jpg",
+      "desktop": "https://i.ibb.co/58cCyPM/suggestion-xx59-headphones.jpg"
     }
   },
   {
-    "slug": "xx99-mark-one-headphones",
-    "name": "XX99 Mark I Headphones",
+    "name": "XX99 Mark One Headphones",
     "image": {
-      "mobile": "/product-xx99-mark-one-headphones/mobile/image-product.jpg",
-      "tablet": "/product-xx99-mark-one-headphones/tablet/image-product.jpg",
-      "desktop": "/product-xx99-mark-one-headphones/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/QprMpxs/image-product.jpg",
+      "tablet": "https://i.ibb.co/99Zm9Rr/image-product.jpg",
+      "desktop": "https://i.ibb.co/CVm0C1w/image-product.jpg"
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "/product-xx99-mark-one-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-xx99-mark-one-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-xx99-mark-one-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/XXrzDdZ/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/NFFzMbM/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/ph6gQpx/image-category-page-preview.jpg"
     },
     "new": false,
     "price": 1750,
@@ -149,35 +182,52 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg",
-        "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg",
-        "desktop": "./assets/product-xx99-mark-one-headphones/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/sv663Lm/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/YR2bdLh/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/LJgkLDL/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg",
-        "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg",
-        "desktop": "./assets/product-xx99-mark-one-headphones/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/61Zx319/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/8gR7cjR/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/5G86BgK/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "./assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg",
-        "tablet": "./assets/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg",
-        "desktop": "./assets/product-xx99-mark-one-headphones/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/c8PzZMH/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/TTJyD2f/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/ZdpfbrT/image-gallery-3.jpg"
       }
+    },
+    "others": ["XX99 Mark Two", "XX59 headphones", "ZX9 Speaker"],
+    "thumb": "https://i.ibb.co/6r3M9v9/image-category-thumbnail-headphones.png",
+    "heroImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "spotlightImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "cartImage": "https://i.ibb.co/hZssHbt/image-cart-xx99-mark-one-headphones.jpg",
+    "suggestionImage": {
+      "mobile": "https://i.ibb.co/VD1wcFX/suggestion-xx99-mark-one-headphones.jpg",
+      "tablet": "https://i.ibb.co/cDg5h80/suggestion-xx99-mark-one-headphones.jpg",
+      "desktop": "https://i.ibb.co/9pLLMqZ/suggestion-xx99-mark-one-headphones.jpg"
     }
   },
   {
-    "slug": "xx99-mark-two-headphones",
-    "name": "XX99 Mark II Headphones",
+    "name": "XX99 Mark Two Headphones",
     "image": {
-      "mobile": "/product-xx99-mark-two-headphones/mobile/image-product.jpg",
-      "tablet": "/product-xx99-mark-two-headphones/tablet/image-product.jpg",
-      "desktop": "/product-xx99-mark-two-headphones/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/jVqc5GK/image-product.jpg",
+      "tablet": "https://i.ibb.co/FYfVP1W/image-product.jpg",
+      "desktop": "https://i.ibb.co/z87sVHt/image-category-page-preview.jpg"
     },
     "category": "headphones",
     "categoryImage": {
-      "mobile": "/product-xx99-mark-two-headphones/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-xx99-mark-two-headphones/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-xx99-mark-two-headphones/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/HNDwB2S/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/4TV936h/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/z87sVHt/image-category-page-preview.jpg"
     },
     "new": true,
     "price": 2999,
@@ -207,35 +257,52 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg",
-        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg",
-        "desktop": "./assets/product-xx99-mark-two-headphones/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/ykmC1KG/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/HXxnfCg/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/wWVx6WX/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg",
-        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg",
-        "desktop": "./assets/product-xx99-mark-two-headphones/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/MhcygKH/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/Bz9Bcnv/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/TT1jvpw/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "./assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg",
-        "tablet": "./assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg",
-        "desktop": "./assets/product-xx99-mark-two-headphones/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/ZB1NGtd/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/PWn8FpM/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/pbdzG8q/image-gallery-3.jpg"
       }
+    },
+    "others": ["XX99 Mark One", "XX59 headphones", "ZX9 Speaker"],
+    "thumb": null,
+    "heroImage": {
+      "mobile": "https://i.ibb.co/kxCssZK/image-header.jpg",
+      "tablet": "https://i.ibb.co/3rh9J1n/image-header.jpg",
+      "desktop": "https://i.ibb.co/xMg8rVh/image-hero.jpg"
+    },
+    "spotlightImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "cartImage": "https://i.ibb.co/K0drZF6/image-cart-xx99-mark-two-headphones.jpg",
+    "suggestionImage": {
+      "mobile": "https://i.ibb.co/7rFpc0S/suggestion-xx99-mark-two-headphones.jpg",
+      "tablet": "https://i.ibb.co/XZjbh9y/suggestion-xx99-mark-two-headphones.jpg",
+      "desktop": "https://i.ibb.co/sm47rZ8/suggestion-xx99-mark-two-headphones.jpg"
     }
   },
   {
-    "slug": "zx7-speaker",
     "name": "ZX7 Speaker",
     "image": {
-      "mobile": "/product-zx7-speaker/mobile/image-product.jpg",
-      "tablet": "/product-zx7-speaker/tablet/image-product.jpg",
-      "desktop": "/product-zx7-speaker/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/RpnzYw7/image-product.jpg",
+      "tablet": "https://i.ibb.co/fYt9L6S/image-product.jpg",
+      "desktop": "https://i.ibb.co/RP5MRH7/image-product.jpg"
     },
     "category": "speakers",
     "categoryImage": {
-      "mobile": "/product-zx7-speaker/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-zx7-speaker/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-zx7-speaker/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/YBH1ftJ/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/02TnHqp/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/vjxw4Ld/image-category-page-preview.jpg"
     },
     "new": false,
     "price": 3500,
@@ -265,35 +332,52 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "/product-zx7-speaker/mobile/image-gallery-1.jpg",
-        "tablet": "/product-zx7-speaker/tablet/image-gallery-1.jpg",
-        "desktop": "/product-zx7-speaker/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/NpFFRy2/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/wJbccf6/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/8KpQTYw/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "/product-zx7-speaker/mobile/image-gallery-2.jpg",
-        "tablet": "/product-zx7-speaker/tablet/image-gallery-2.jpg",
-        "desktop": "/product-zx7-speaker/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/8rP3YWZ/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/JjZ6rNt/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/BC6Qhyv/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "/product-zx7-speaker/mobile/image-gallery-3.jpg",
-        "tablet": "/product-zx7-speaker/tablet/image-gallery-3.jpg",
-        "desktop": "/product-zx7-speaker/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/W5H2fb2/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/P4QpkbL/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/xsxjCCH/image-gallery-3.jpg"
       }
+    },
+    "others": ["ZX9 Speaker", "XX99 Mark One", "XX59 headphones"],
+    "thumb": null,
+    "heroImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "spotlightImage": {
+      "mobile": "https://i.ibb.co/8Yx9XdD/spotlight-speaker-zx7.jpg",
+      "tablet": "https://i.ibb.co/pvC6yyV/spotlight-speaker-zx7.jpg",
+      "desktop": "https://i.ibb.co/zStT1C3/spotlight-speaker-zx7.jpg"
+    },
+    "cartImage": "https://i.ibb.co/48YdKt9/image-cart-zx7-speaker.jpg",
+    "suggestionImage": {
+      "mobile": "https://i.ibb.co/936QtTm/suggestion-zx7-speaker.jpg",
+      "tablet": "https://i.ibb.co/7kq9drn/suggestion-zx7-speaker.jpg",
+      "desktop": "https://i.ibb.co/gynNLFC/suggestion-zx7-speaker.jpg"
     }
   },
   {
-    "slug": "zx9-speaker",
     "name": "ZX9 Speaker",
     "image": {
-      "mobile": "/product-zx9-speaker/mobile/image-product.jpg",
-      "tablet": "/product-zx9-speaker/tablet/image-product.jpg",
-      "desktop": "/product-zx9-speaker/desktop/image-product.jpg"
+      "mobile": "https://i.ibb.co/BCsCYRh/image-product.jpg",
+      "tablet": "https://i.ibb.co/9Wy9CJc/image-product.jpg",
+      "desktop": "https://i.ibb.co/9p2xjfW/image-product.jpg"
     },
     "category": "speakers",
     "categoryImage": {
-      "mobile": "/product-zx9-speaker/mobile/image-category-page-preview.jpg",
-      "tablet": "/product-zx9-speaker/tablet/image-category-page-preview.jpg",
-      "desktop": "/product-zx9-speaker/desktop/image-category-page-preview.jpg"
+      "mobile": "https://i.ibb.co/X7M3Xmt/image-category-page-preview.jpg",
+      "tablet": "https://i.ibb.co/tsRGQbY/image-category-page-preview.jpg",
+      "desktop": "https://i.ibb.co/5vk9NRG/image-category-page-preview.jpg"
     },
     "new": true,
     "price": 4500,
@@ -323,20 +407,38 @@
     ],
     "gallery": {
       "first": {
-        "mobile": "/product-zx9-speaker/mobile/image-gallery-1.jpg",
-        "tablet": "/product-zx9-speaker/tablet/image-gallery-1.jpg",
-        "desktop": "/product-zx9-speaker/desktop/image-gallery-1.jpg"
+        "mobile": "https://i.ibb.co/SBnHtMC/image-gallery-1.jpg",
+        "tablet": "https://i.ibb.co/Tr0ZfwX/image-gallery-1.jpg",
+        "desktop": "https://i.ibb.co/V2b4Kyz/image-gallery-1.jpg"
       },
       "second": {
-        "mobile": "/product-zx9-speaker/mobile/image-gallery-2.jpg",
-        "tablet": "/product-zx9-speaker/tablet/image-gallery-2.jpg",
-        "desktop": "/product-zx9-speaker/desktop/image-gallery-2.jpg"
+        "mobile": "https://i.ibb.co/d2YsMw1/image-gallery-2.jpg",
+        "tablet": "https://i.ibb.co/HqRC0fr/image-gallery-2.jpg",
+        "desktop": "https://i.ibb.co/Xpg3cbt/image-gallery-2.jpg"
       },
       "third": {
-        "mobile": "/product-zx9-speaker/mobile/image-gallery-3.jpg",
-        "tablet": "/product-zx9-speaker/tablet/image-gallery-3.jpg",
-        "desktop": "/product-zx9-speaker/desktop/image-gallery-3.jpg"
+        "mobile": "https://i.ibb.co/LPCq2TR/image-gallery-3.jpg",
+        "tablet": "https://i.ibb.co/kSvHPNT/image-gallery-3.jpg",
+        "desktop": "https://i.ibb.co/hswPCmn/image-gallery-3.jpg"
       }
+    },
+    "others": ["ZX7 Speaker", "XX99 Mark One", "xx59 headphones"],
+    "thumb": "https://i.ibb.co/xfMTGtm/image-category-thumbnail-speakers.png",
+    "heroImage": {
+      "mobile": null,
+      "tablet": null,
+      "desktop": null
+    },
+    "spotlightImage": {
+      "mobile": "https://i.ibb.co/K9h7Q9g/spotlight-speaker-zx9.png",
+      "tablet": "https://i.ibb.co/sH744pm/spotlight-speaker-zx9.png",
+      "desktop": "https://i.ibb.co/FnrB0yJ/spotlight-speaker-zx9.png"
+    },
+    "cartImage": "https://i.ibb.co/w0p3n9K/image-cart-zx9-speaker.jpg",
+    "suggestionImage": {
+      "mobile": "https://i.ibb.co/XCmMRy0/suggestion-zx9-speaker.jpg",
+      "tablet": "https://i.ibb.co/frQFffg/suggestion-zx9-speaker.jpg",
+      "desktop": "https://i.ibb.co/GJ1SX7K/suggestion-zx9-speaker.jpg"
     }
   }
 ]
