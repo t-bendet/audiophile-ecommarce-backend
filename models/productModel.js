@@ -9,8 +9,8 @@ const productSchema = new mongoose.Schema(
       required: [true, "A product must have a name"],
       unique: true,
       trim: true,
-      maxlength: [40, "A tour must have less or equal then 40 characters"],
-      minlength: [10, "A tour must have more or equal then 10 characters"],
+      maxlength: [40, "A product must have less or equal then 40 characters"],
+      minlength: [10, "A product must have more or equal then 10 characters"],
     },
     slug: String,
     image: {
@@ -77,45 +77,67 @@ const productSchema = new mongoose.Schema(
       first: {
         mobile: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
         tablet: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
         desktop: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
       },
       second: {
         mobile: {
           type: String,
-          required: [true, "A product must all gallery picturese"],
+          required: [true, "A product must have all gallery pictures"],
         },
         tablet: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
         desktop: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
       },
       third: {
         mobile: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
         tablet: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
         desktop: {
           type: String,
-          required: [true, "A product must all gallery pictures"],
+          required: [true, "A product must have all gallery pictures"],
         },
       },
+    },
+    // TODO validate?
+    others: [String],
+    thumb: String,
+    heroImage: {
+      mobile: String,
+      tablet: String,
+      desktop: String,
+    },
+    spotlightImage: {
+      mobile: String,
+      tablet: String,
+      desktop: String,
+    },
+    cartImage: {
+      type: String,
+      required: [true, "A product must have a cart image"],
+    },
+    suggestionImage: {
+      mobile: String,
+      tablet: String,
+      desktop: String,
     },
     createdAt: {
       type: Date,
