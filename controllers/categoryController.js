@@ -1,44 +1,35 @@
 const Category = require("../models/categoryModel");
-// const APIFeatures = require("../utils/apiFeatures");
+const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
 
 const getAllCategories = catchAsync(async (req, res, next) => {
-  const data = await Category.find({});
+  const categories = await Category.find({});
   res.status(200).json({
     status: "success",
-    results: data.length,
-    data,
-  });
-});
-
-const getCategoryProductsByName = catchAsync(async (req, res, next) => {
-  const { name } = req.params;
-  console.log(req.params);
-  const data = await Category.findOne({ name });
-  // SEND RESPONSE
-  console.log(data);
-  res.status(200).json({
-    status: "success",
-    results: data.products.length,
-    data,
+    results: categories.length,
+    data: categories,
   });
 });
 
 const getCategoryProductsById = catchAsync(async (req, res, next) => {
   const { id } = req.params;
   const data = await Category.findOne({ _id: id });
+  if (!data) {
+    return next(new AppError("No category found with that ID", 404));
+  }
+  const { name, products } = data;
   // SEND RESPONSE
-  console.log(data);
   res.status(200).json({
     status: "success",
-    results: data.products.length,
-    data,
+    results: products.length,
+    id,
+    name,
+    data: products,
   });
 });
 getCategoryProductsById;
 
 module.exports = {
   getAllCategories,
-  getCategoryProductsByName,
   getCategoryProductsById,
 };

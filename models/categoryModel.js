@@ -28,7 +28,7 @@ const categorySchema = new mongoose.Schema(
 categorySchema.pre("findOne", function (next) {
   this.populate({
     path: "products",
-    select: "name description categoryImage new",
+    select: "name description categoryImage new slug",
   });
   next();
 });
@@ -37,7 +37,7 @@ categorySchema.pre("find", function (next) {
   this.populate({
     path: "categoryThumbnail",
     select: "thumb",
-  });
+  }).select("name");
   next();
 });
 
