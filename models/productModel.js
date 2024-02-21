@@ -32,7 +32,7 @@ const productSchema = new mongoose.Schema(
       required: [true, "A product must have a category name"],
       enum: {
         values: ["earphones", "headphones", "speakers"],
-        message: "Difficulty is either : earphones, headphones, speakers",
+        message: "Category is either : earphones, headphones, speakers",
       },
     },
     categoryImage: {
@@ -138,6 +138,24 @@ const productSchema = new mongoose.Schema(
       mobile: String,
       tablet: String,
       desktop: String,
+    },
+    indicators: {
+      featuredProduct: {
+        type: Boolean,
+        default: false,
+      },
+      spotlightProduct: {
+        type: Boolean,
+        default: false,
+      },
+      spotlightProductIndex: {
+        type: Number,
+        default: 0,
+      },
+      categoryThumb: {
+        type: Boolean,
+        default: false,
+      },
     },
     createdAt: {
       type: Date,
