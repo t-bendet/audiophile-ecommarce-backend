@@ -7,29 +7,28 @@ const getAllCategories = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: "success",
     results: categories.length,
-    data: categories,
+    categories,
   });
 });
 
-const getCategoryProductsById = catchAsync(async (req, res, next) => {
-  const { id } = req.params;
-  const data = await Category.findOne({ _id: id });
+const getCategoryProductsByName = catchAsync(async (req, res, next) => {
+  const { name: categoryName } = req.params;
+  const data = await Category.findOne({ name: categoryName });
   if (!data) {
     return next(new AppError("No category found with that ID", 404));
   }
-  const { name, products } = data;
+  const { name, products, id } = data;
   // SEND RESPONSE
   res.status(200).json({
     status: "success",
     results: products.length,
     id,
     name,
-    data: products,
+    products,
   });
 });
-getCategoryProductsById;
 
 module.exports = {
   getAllCategories,
-  getCategoryProductsById,
+  getCategoryProductsByName,
 };
