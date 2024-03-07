@@ -3,8 +3,6 @@ const APIFeatures = require("../utils/apiFeatures");
 const AppError = require("../utils/appError");
 const catchAsync = require("../utils/catchAsync");
 
-// TODO handle lower upper case
-
 const getAllProducts = catchAsync(async (req, res, next) => {
   const features = new APIFeatures(
     Product.find(),
@@ -20,7 +18,7 @@ const getAllProducts = catchAsync(async (req, res, next) => {
   res.status(200).json({
     status: "success",
     results: products.length,
-    data: products,
+    products,
   });
 });
 
@@ -33,21 +31,21 @@ const getProductById = catchAsync(async (req, res, next) => {
   // * select only relevant fields for category display
   res.status(200).json({
     status: "success",
-    data: product,
+    product,
   });
 });
 
 const getFeaturedProduct = catchAsync(async (req, res, next) => {
   let product = await Product.findOne({
     "indicators.featuredProduct": { $eq: true },
-  });
+  }).select("heroImage name new");
   if (!product) {
     return next(new AppError("Featured product was not found", 404));
   }
   // * select only relevant fields for category display
   res.status(200).json({
     status: "success",
-    data: product,
+    product,
   });
 });
 
@@ -56,7 +54,7 @@ const getSpotlightProducts = catchAsync(async (req, res, next) => {
     "indicators.spotlightProduct": { $eq: true },
   })
     .sort({ "indicators.spotlightProductIndex": 1 })
-    .select("name categoryImage");
+    .select("name spotlightImage");
   if (!products) {
     return next(new AppError("No product found with that ID", 404));
   }
@@ -68,9 +66,27 @@ const getSpotlightProducts = catchAsync(async (req, res, next) => {
   });
 });
 
+const getSuggestedProductsByName = catchAsync(async (req, res, next) => {
+  const { filterBy = [] } = req.query;
+  if (!Array.isArray(filterBy)) {
+    return next(new AppError("Query String must be an array of products", 404));
+  }
+
+  const suggestedProducts = await Product.find({
+    name: { $in: filterBy },
+  }).select("suggestionImage name");
+
+  // * select only relevant fields for category display
+  res.status(200).json({
+    status: "success",
+    suggestedProducts,
+  });
+});
+
 module.exports = {
   getAllProducts,
   getProductById,
   getFeaturedProduct,
   getSpotlightProducts,
+  getSuggestedProductsByName,
 };

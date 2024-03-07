@@ -55,7 +55,7 @@
         "desktop": "https://i.ibb.co/khPfFQk/image-gallery-3.jpg"
       }
     },
-    "others": ["XX99 Mark One", "xx59 headphones", "ZX9 Speaker"],
+    "others": ["XX99 Mark One Headphones", "XX59 Headphones", "ZX9 Speaker"],
     "thumb": "https://i.ibb.co/9Z0BpQC/image-category-thumbnail-earphones.png",
     "heroImage": {
       "mobile": null,
@@ -95,8 +95,8 @@
     },
     "new": false,
     "price": 899,
-    "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
-    "features": "These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.\n\nMore than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.",
+    "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 Headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+    "features": "These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the latest wireless technology engineered for audio synchronization with videos.\n\nMore than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 Headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.",
     "includes": [
       {
         "quantity": 1,
@@ -132,7 +132,11 @@
         "desktop": "https://i.ibb.co/vh2380K/image-gallery-3.jpg"
       }
     },
-    "others": ["XX99 Mark Two", "XX99 Mark One", "ZX9 Speaker"],
+    "others": [
+      "XX99 Mark Two Headphones",
+      "XX99 Mark One Headphones",
+      "ZX9 Speaker"
+    ],
     "thumb": null,
     "heroImage": {
       "mobile": null,
@@ -209,7 +213,7 @@
         "desktop": "https://i.ibb.co/ZdpfbrT/image-gallery-3.jpg"
       }
     },
-    "others": ["XX99 Mark Two", "XX59 headphones", "ZX9 Speaker"],
+    "others": ["XX99 Mark Two Headphones", "XX59 Headphones", "ZX9 Speaker"],
     "thumb": "https://i.ibb.co/6r3M9v9/image-category-thumbnail-headphones.png",
     "heroImage": {
       "mobile": null,
@@ -290,7 +294,7 @@
         "desktop": "https://i.ibb.co/pbdzG8q/image-gallery-3.jpg"
       }
     },
-    "others": ["XX99 Mark One", "XX59 headphones", "ZX9 Speaker"],
+    "others": ["XX99 Mark One Headphones", "XX59 Headphones", "ZX9 Speaker"],
     "thumb": null,
     "heroImage": {
       "mobile": "https://i.ibb.co/kxCssZK/image-header.jpg",
@@ -371,7 +375,7 @@
         "desktop": "https://i.ibb.co/xsxjCCH/image-gallery-3.jpg"
       }
     },
-    "others": ["ZX9 Speaker", "XX99 Mark One", "XX59 headphones"],
+    "others": ["ZX9 Speaker", "XX99 Mark One Headphones", "XX59 Headphones"],
     "thumb": null,
     "heroImage": {
       "mobile": null,
@@ -452,7 +456,7 @@
         "desktop": "https://i.ibb.co/hswPCmn/image-gallery-3.jpg"
       }
     },
-    "others": ["ZX7 Speaker", "XX99 Mark One", "xx59 headphones"],
+    "others": ["ZX7 Speaker", "XX99 Mark One Headphones", "XX59 Headphones"],
     "thumb": "https://i.ibb.co/xfMTGtm/image-category-thumbnail-speakers.png",
     "heroImage": {
       "mobile": null,

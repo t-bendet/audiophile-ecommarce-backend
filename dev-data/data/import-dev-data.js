@@ -71,6 +71,7 @@ const importData = async () => {
 const deleteData = async () => {
   try {
     await Product.deleteMany();
+    await Category.deleteMany();
     console.log("Data successfully deleted!");
   } catch (err) {
     console.log(err);

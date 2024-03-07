@@ -175,6 +175,29 @@ productSchema.pre("save", function (next) {
   next();
 });
 
+productSchema.methods.toJSON = function () {
+  const product = this;
+  const productObject = product.toObject();
+  if (!productObject.name) {
+    return productObject;
+  }
+  const nameArray = productObject.name.split(" ");
+  const nameWithRomans = nameArray
+    .map((str) => {
+      if (str.toLowerCase() === "one") {
+        return "I";
+      }
+      if (str.toLowerCase() === "two") {
+        return "II";
+      }
+      return str;
+    })
+    .join(" ");
+
+  productObject.name = nameWithRomans;
+  return productObject;
+};
+
 const Product = mongoose.model("Product", productSchema);
 
 module.exports = Product;
