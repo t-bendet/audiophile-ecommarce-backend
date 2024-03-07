@@ -71,18 +71,15 @@ const getSuggestedProductsByName = catchAsync(async (req, res, next) => {
   if (!Array.isArray(filterBy)) {
     return next(new AppError("Query String must be an array of products", 404));
   }
-  const others = await Product.aggregate([
-    {
-      $match: { name: { $in: filterBy } },
-    },
-    {
-      $project: { _id: 1, suggestionImage: 1, name: 1 },
-    },
-  ]);
+
+  const suggestedProducts = await Product.find({
+    name: { $in: filterBy },
+  }).select("suggestionImage name");
+
   // * select only relevant fields for category display
   res.status(200).json({
     status: "success",
-    others,
+    suggestedProducts,
   });
 });
 
