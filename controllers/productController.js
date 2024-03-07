@@ -66,9 +66,30 @@ const getSpotlightProducts = catchAsync(async (req, res, next) => {
   });
 });
 
+const getSuggestedProductsByName = catchAsync(async (req, res, next) => {
+  const { filterBy = [] } = req.query;
+  if (!Array.isArray(filterBy)) {
+    return next(new AppError("Query String must be an array of products", 404));
+  }
+  const others = await Product.aggregate([
+    {
+      $match: { name: { $in: filterBy } },
+    },
+    {
+      $project: { _id: 1, suggestionImage: 1, name: 1 },
+    },
+  ]);
+  // * select only relevant fields for category display
+  res.status(200).json({
+    status: "success",
+    others,
+  });
+});
+
 module.exports = {
   getAllProducts,
   getProductById,
   getFeaturedProduct,
   getSpotlightProducts,
+  getSuggestedProductsByName,
 };
