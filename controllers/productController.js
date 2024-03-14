@@ -61,7 +61,11 @@ const getSpotlightProducts = catchAsync(async (req, res, next) => {
   // * select only relevant fields for category display
   res.status(200).json({
     status: "success",
-    products,
+    products: {
+      first: products[0],
+      second: products[1],
+      third: products[2],
+    },
     length: products.length,
   });
 });
