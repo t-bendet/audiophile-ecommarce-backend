@@ -20,6 +20,9 @@ const products = JSON.parse(
 
 // IMPORT DATA INTO DB
 // TODO this is shit code,redo it
+// TODO delete old data first
+// TODO use products returned from create
+// https://stackoverflow.com/questions/19701154/mongoose-whats-the-differences-between-model-create-and-collection-insert#:~:text=checking%20the%20documentation%20for%20insertMany,the%20other%20hand%2C%20create%20does.
 
 const importData = async () => {
   try {
