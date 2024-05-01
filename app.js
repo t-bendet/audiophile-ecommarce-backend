@@ -8,6 +8,9 @@ const categoryRouter = require("./routes/categoryRoutes");
 
 const app = express();
 
+// TODO refactor calls to return all of the product,not just what's needed for that screen
+// TODO compere response  size and see if it makes a diff
+
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));
 }
